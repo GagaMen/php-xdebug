@@ -18,7 +18,7 @@ Configure PhpStorm
 ### Docker Server
 Go to ***Settings > Build, Execution, Deployment > Docker*** and add with the plus button a new docker server.
 
-![docker server](Resources/Images/docker_server.png)
+![docker server](https://github.com/GagaMen/php-xdebug/raw/master/Resources/Images/docker_server.png)
 
 see also: https://confluence.jetbrains.com/display/PhpStorm/Docker+Support+in+PhpStorm
 
@@ -35,15 +35,15 @@ Pull the image with your required version:
 
 Go to ***Settings > Language & Frameworks > PHP***, then click the "three-dot-button" behind CLI Interpreter.
 
-![php_settings](Resources/Images/php_settings.png)
+![php_settings](https://github.com/GagaMen/php-xdebug/raw/master/Resources/Images/php_settings.png)
 
 Now add a new interpreter by pressing the green plus symbol in the left top corner and choose "From Docker, Vagrant, VM, Remote, ...".
 
-![add_interpreter](Resources/Images/add_interpreter.png)
+![add_interpreter](https://github.com/GagaMen/php-xdebug/raw/master/Resources/Images/add_interpreter.png)
 
 Choose Docker in the new popup window, select your defined docker server and the previously downloaded docker image.
 
-![choose_docker_image](Resources/Images/choose_docker_image.png)
+![choose_docker_image](https://github.com/GagaMen/php-xdebug/raw/master/Resources/Images/choose_docker_image.png)
 
 Add for each php version, do you want to use, one interpreter and then apply the changes.
 
