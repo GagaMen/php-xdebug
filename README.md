@@ -5,6 +5,13 @@ The idea behind this image is a flexible php interpreter with xdebug support for
 I know there are many php images with xDebug support, but often they also have more stuff 
 included than xDebug and I want an image only with the necessary.
 
+Note
+---
+This version isn't a stable version, because php version 7.3 is not released at this moment.
+Current versions:
+* php: 7.3.0RC5
+* xDebug: 2.7.0beta1
+
 Base image
 ---
 * [php-cli](https://hub.docker.com/_/php/)
